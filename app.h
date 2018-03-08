@@ -21,7 +21,7 @@
 #include "mylib.h"
 #include <rsh.h>
 
-/* 本模块向外部提供的宏定义 --------------------------------------------------*/
+/* 本向外部提供的宏定义 --------------------------------------------------*/
 #define LOGO_STRING                     "NCURoboteam-A Robot# "
 #define _MAIN_DEBUG_                  1
 #define _CLI_ENABLE_                  1
