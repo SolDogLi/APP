@@ -1,0 +1,213 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 郭 鑫岚, NCU, LIC=6XJCX-HY18V-58IFB-2LC62-G39TD-8YMK2
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  F:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Sol\Desktop\A车上层机构01.20\USER\Template.uvprojx
+Project File Date:  03/06/2018
+
+<h2>Output:</h2>
+Build target 'Template'
+compiling main.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+main.c: 2 warnings, 0 errors
+compiling stm32f4xx_it.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+stm32f4xx_it.c(300): warning:  #177-D: variable "i" was declared but never referenced
+        uint16_t i;
+stm32f4xx_it.c(301): warning:  #177-D: variable "err" was declared but never referenced
+        OS_ERR err;
+stm32f4xx_it.c(351): warning:  #177-D: variable "err" was declared but never referenced
+        OS_ERR err;
+stm32f4xx_it.c(413): warning:  #177-D: variable "i" was declared but never referenced
+        static uint8_t i=0;
+stm32f4xx_it.c: 6 warnings, 0 errors
+compiling delay.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\SYSTEM\delay\delay.c: 2 warnings, 0 errors
+compiling os_cpu_c.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\UCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_c.c: 2 warnings, 0 errors
+compiling rbc_lcd.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\DRIVE\RBC_LCD\rbc_lcd.c: 2 warnings, 0 errors
+compiling motor_control.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\DRIVE\MOTOR_CONTROL\motor_control.c(67): warning:  #111-D: statement is unreachable
+        while(!(CAN_TransmitStatus(CAN1, msgbox)==CAN_TxStatus_Ok)){BEED_ON;i++;delay_us(20);if(i>500){return 1;BEED_OFF;}}
+..\DRIVE\MOTOR_CONTROL\motor_control.c: 3 warnings, 0 errors
+compiling function.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\DRIVE\function.c: 2 warnings, 0 errors
+compiling can.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\BSP\can.c: 2 warnings, 0 errors
+compiling gpio.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\BSP\gpio.c: 2 warnings, 0 errors
+compiling IWDG.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\BSP\IWDG.c: 2 warnings, 0 errors
+compiling NVIC.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\BSP\NVIC.c: 2 warnings, 0 errors
+compiling time.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\BSP\time.c: 2 warnings, 0 errors
+compiling usart.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\BSP\usart.c: 2 warnings, 0 errors
+compiling PCI.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\BSP\PCI.c: 2 warnings, 0 errors
+compiling exti.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\BSP\exti.c: 2 warnings, 0 errors
+compiling app.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\APP\app.c: 2 warnings, 0 errors
+compiling IWDG_task.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\APP\IWDG_task.c: 2 warnings, 0 errors
+compiling motor_driver_task.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\APP\motor_driver_task.c: 2 warnings, 0 errors
+compiling hand_task.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\APP\hand_task.c(62): warning:  #177-D: variable "cpu_sr" was declared but never referenced
+         CPU_SR_ALLOC();
+..\APP\hand_task.c: 3 warnings, 0 errors
+compiling printf_task.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\APP\printf_task.c: 2 warnings, 0 errors
+compiling command_task.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\APP\command_task.c: 2 warnings, 0 errors
+compiling connect_task.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\APP\connect_task.c(77): warning:  #1-D: last line of file ends without a newline
+  /************/
+..\APP\connect_task.c: 3 warnings, 0 errors
+compiling display.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\APP\display.c(244): warning:  #1-D: last line of file ends without a newline
+  /************/
+..\APP\display.c: 3 warnings, 0 errors
+compiling throw_task.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\APP\throw_task.c(116): warning:  #177-D: variable "err" was declared but never referenced
+         OS_ERR err;
+..\APP\throw_task.c(235): warning:  #550-D: variable "decelerate" was set but never used
+        int decelerate,enterstop;
+..\APP\throw_task.c: 4 warnings, 0 errors
+compiling key.c...
+..\BSP\usart.h(10): warning:  #1295-D: Deprecated declaration Correspond_Receipt - give arg types
+  void Correspond_Receipt();
+..\BSP\usart.h(11): warning:  #1295-D: Deprecated declaration Communication_request - give arg types
+  void Communication_request();
+..\APP\key.c(43): warning:  #177-D: variable "cpu_sr" was declared but never referenced
+      CPU_SR_ALLOC();//使用临界区代码时需要
+..\APP\key.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=82692 RO-data=2700 RW-data=424 ZI-data=27840  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 61 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Sol\Desktop\A车上层机构01.20\USER\RTE
+  F:\keil5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
