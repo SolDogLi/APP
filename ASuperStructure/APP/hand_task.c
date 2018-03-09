@@ -260,7 +260,7 @@ static void hand_task(void *p_arg)
 													switch(place)
 																	 {
 																		 case ONE:{
-																			        TZ1.point-=10;
+																			        TZ1.point-=20;
 																		 }break;
 																		 case TWO:{
 																			          TZ2.point-=10;
